@@ -55,7 +55,7 @@ class App extends Component {
         return (
             <div className={`app ${(props.isMenuVisible && props.user) ? '' : 'hide-menu'}`}>
                 <Header
-                    title="React Knowledge - Base de conhecimento"
+                    title="Base de conhecimento"
                     hideToggle={props.user ? false : true}
                     hideUserDropdown={props.user ? false : true}
                 />
