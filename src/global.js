@@ -1,6 +1,6 @@
 import { defaultSuccess, defaultError } from './config/msgs';
 
-export const baseApiUrl = 'http://localhost:3001'
+export const baseApiUrl = 'https://simple-knowledge-base.herokuapp.com/'
 export const userKey = '__knowledge_user'
 
 export function showError(e) {
