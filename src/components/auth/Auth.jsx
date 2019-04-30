@@ -56,7 +56,7 @@ class Auth extends Component {
 
     handleLink(e) {
         e.preventDefault()
-        this.setState(state => ({ showSignup: !state.showSignup }))
+        this.setState(state => ({ user: {}, showSignup: !state.showSignup }))
     }
 
     render() {
